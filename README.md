@@ -1,3 +1,3 @@
-<h1>$${Task Manager Login}$$</h1>
+<h1>Task Manager Login</h1>
 <h2>$${Description:}$$</h2>
 This script is a user management system I created to handle registration, login, and secure storage of user credentials. It uses Python’s `hashlib` to hash passwords with SHA-256, ensuring they're stored securely in a CSV file. Users can register with a unique username, and the system checks for duplicates before saving. During login, the entered password is hashed and compared with stored data to validate access. If successful, users gain access to a placeholder task manager. The program has a simple menu for navigation, error handling for missing files, and keeps everything modular for easy updates.
